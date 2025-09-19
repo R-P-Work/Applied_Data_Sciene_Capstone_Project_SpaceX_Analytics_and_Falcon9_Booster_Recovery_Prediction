@@ -5,7 +5,7 @@ This repository contains the files created as part of the 'Applied Data Science 
 
 ## The analysis includes:
 
-1. In the spacex-data-collection-api notebook we use the **SpaceX API** to collect rocket launch data, format the JSON response into a DataFrame, filter for only Falcon-9 Launches and perform some basic preprocessing like dealing with missing values in relevant columns.
+1. In the spacex-data-collection-api notebook we use the **SpaceX API** to collect rocket launch data, **format the JSON response** into a DataFrame, filter for only Falcon-9 Launches and perform some basic preprocessing like dealing with missing values in relevant columns.
 
 2. In the webscraping notebook we scrape an html table on a Wikipedia page to **collect/parse data using BeautifulSoup**, filter for Falcon-9 launches, extract feature names from the table header and create a usable DataFrame.
 
@@ -19,4 +19,4 @@ This repository contains the files created as part of the 'Applied Data Science 
 
 7. The spacex-dash-app.py file is an **interactive dashboard built using Plotly Dash**. We can **filter launch data** based on the launch site(dropdown) and payload mass(slider). The **visualizations include a pie chart and scatter plot** which show success rates of launch sites and the correlation between outcome and payload mass based on selected launch site and/or booster version.
 
-8. Finally, the Machine Learning Prediction notebook is where we seperate the dataset into X and Y, **standardize** the data, then **split it into train and test sets**, train SVC, DecisionTree, Logistic Regression and KNN models(with **hyperparameter tuning using GridSearchCV with CrossValidation**) and **compare their performances** using **accuracy** and their respective **confusion matrices**.
+8. Finally, the Machine Learning Prediction notebook is where we seperate the dataset into X and Y, **standardize** the data, then **split it into train and test sets**, train SVC, DecisionTree, Logistic Regression and KNN models(with **hyperparameter tuning using GridSearchCV with CrossValidation**) and **compare their performances** using accuracy and their respective confusion matrices.
